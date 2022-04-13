@@ -2,8 +2,6 @@ image: ghcr.io/justin8542/lepton:latest
 project: lepton
 target: lepton
 
-advanced_triage: true
-
 tasks:
   - name: exploitability_factors
   - name: regression_testing
@@ -11,4 +9,4 @@ tasks:
   - name: coverage_analysis
   
 cmds:
-  - cmd: /lepton @@ @@
+  - cmd: /lepton @@ 
